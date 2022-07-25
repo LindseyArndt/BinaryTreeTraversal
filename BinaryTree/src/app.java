@@ -33,9 +33,9 @@ public class app {
 		System.out.println("The result of find 22 is "+myTree.find(22));
 		
 		//leaves and removal 
-		System.out.print("The number of leaves in the tree is: "+myTree.countLeaves()); //how would you know if this is true? You have to print the tree in a sideways form with in_order_traversal
+		System.out.println("The number of leaves in the tree is: "+myTree.countLeaves()); //how would you know if this is true? You have to print the tree in a sideways form with in_order_traversal
 		//you could go down 2 lines after each node for printing the tree
-		System.out.print("The sum of the values in the leaves in the tree is: "+myTree.sumLeaves()); //get the sum of the leaves
+		System.out.println("The sum of the values in the leaves in the tree is: "+myTree.sumLeaves()); //get the sum of the leaves
 		//-------------------Due Thrusday--------------------------------------
 		//System.out.print("The sum of the values in the leaves in the tree is: "+myTree.height()); //use the in_order_traversal
 	}
