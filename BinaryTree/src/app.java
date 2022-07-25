@@ -18,6 +18,7 @@ public class app {
 		myTree.insert(9);
 		myTree.insert(18);
 		
+		System.out.println("----------------In order Traversal---------------------");
 		myTree.in_order_traverse(); //This will print the values in sorted order from lowest to highest LNR
 		
 		//--------------------Due Wednesday----------------------
